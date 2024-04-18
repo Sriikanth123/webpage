@@ -1,0 +1,51 @@
+.hi {
+    display: inline-block;
+    margin: 50px auto;
+    color: aqua;
+}
+body{
+    text-align: center;
+    background-image: url("ludo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+img{
+    margin: auto 20px;
+}
+button{
+    margin-top: 40px;
+    font-size: 40px;
+    background-image: url("dice.jpeg");
+    background-size: 100% 100%;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 73px;
+}
+button:hover{
+    background-color: rgb(170, 235, 235);
+}
+div{
+    padding-bottom: 50px;
+}
+.hulk{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 767.8px;
+    height: 724.8px;
+    visibility: visible;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+#hulk{
+    background-image: url("hulk.gif");
+    left: 0;
+}
+#thor{
+    background-image: url("thor.gif");
+    right: 0;
+}
