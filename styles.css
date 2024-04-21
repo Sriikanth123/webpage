@@ -5,6 +5,7 @@
 }
 body{
     text-align: center;
+    height: 100%;
     background-image: url("ludo.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -33,9 +34,9 @@ div{
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 767.8px;
-    height: 724.8px;
-    visibility: visible;
+    width: 50%;
+    height: 100%;
+    visibility: hidden;
     padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
